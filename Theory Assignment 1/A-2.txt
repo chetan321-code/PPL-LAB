@@ -1,0 +1,5 @@
+1.  If-else statements are like, if the condition is satisfied, then code is directed to a goto and if it is not satisfied, then it is directed to another goto. 
+    Gotos are defined later.
+    Conditional goto is used to direct the compiler to the if-else block, whereas non-conditional goto is used to direct the code to another block while skipping the code inbetween.
+
+2.  cfg makes it easier to read and understand GIMPLE.

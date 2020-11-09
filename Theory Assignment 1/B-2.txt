@@ -1,0 +1,1 @@
+1.  If a = a + N is replaced by a = a + 1, the code will be compiled as per .cfg file and the final answer 14 will be returned in the main function.

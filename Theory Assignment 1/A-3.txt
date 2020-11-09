@@ -1,0 +1,9 @@
+1.  Basic blocks <bb4> and <bb3> correspond to while loop.
+    While loop is converted into basic if-else statements with block of else directing the compiler to the next code.
+
+2.  Basic blocks for nested for loop are <bb5>, <bb6>, <bb7>, <bb8>, <bb9>, <bb10> and <bb11>.
+    <bb5> and <bb6> are initializers.
+    <bb8> and <bb10> are conditions.
+    <bb7> and <bb9> contain increments.
+    In for loops, intializing, conditions and incrementing are done in diferent blocks.
+    Conditions use basic if-else statements.

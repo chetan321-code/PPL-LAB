@@ -1,0 +1,6 @@
+1.  Arrays are declared with the number of elements in it.
+    Elements are assigned later in another basic block in different statement.
+
+2.  Assignment of the value of one variable to another is always carried out in two steps.
+
+3.  Clobberring of the arrays is done unintentionally.

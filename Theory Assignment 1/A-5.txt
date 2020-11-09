@@ -1,0 +1,21 @@
+1.  Yes, each usage of local variable as an operand uses a suffix.
+    (D) suffix is used to indicate that variable c is not initialized.
+
+2.  Syntax: (variable to be assigned) = PHI <(variable to assign in case-1), (variable to assign in case-2), . . .>
+
+3.  int main() {
+        int variables;
+
+        if(condition) {
+            variable = value;
+        }
+        else if(condition) {
+            variable = value;
+        }
+        else {
+            vairable = value;
+        }
+        return 0;
+    }
+
+    PHI will merge as many versions of the variables as many times they are assigned in different if-else conditions.

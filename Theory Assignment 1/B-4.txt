@@ -1,0 +1,7 @@
+1.  In original code, 'a + c' is computed twice whereas in FRE pass, the same is computed only once.
+
+2.  FRE is optimized twice in the files .fre2 and .fre3.
+
+3.  As we have mensioned integer as output, we have to return an integer. 
+    Here we are returning integer b.
+    If we replace b with 0 in return statement. It will not make any difference. Just 0 will replace b in the .fre1 file.

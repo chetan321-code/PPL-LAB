@@ -1,0 +1,15 @@
+1.  Every declaration is on the new line first in the code. 
+    Even variables declared on the same line are written on the different lines. 
+    Temporary variables are also declared at first. 
+    Global variable Z is declared as Z.0 in main() function.
+
+2.  Complex expressions are broken down into sub-expressions and assigned to the temporary variables in the order of precedence. 
+    Temporary variables are introduced on every sub-expression.
+
+3.  Float/Doubles are represented in scientific notation. 
+    When float/double is assigned to an integer, '(int)' prefix is applied before float/double.
+
+4.  Reads are performed by representing Z by Z.0 and writes as usual. 
+    In the statement 'Z = Z + 1' there is one sub-expression 'Z + 1'. 
+    The statement is executed in two steps, performing operation 'Z + 1' and assigning its value to Z, while 'q = Z' is only assignment operation. 
+    Thats why, a temporary variable is introduced to perform two steps of 'Z = Z + 1' statement.

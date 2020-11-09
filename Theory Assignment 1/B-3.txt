@@ -1,0 +1,2 @@
+1.  Variable a will always take value 4.
+    If condition will never be true.

@@ -1,0 +1,4 @@
+1.  Case 1 has no dependency as there is only one statement in the loop.
+    Case 2 has WAW dependancy as the output changes on changing the sequence of the statements.
+
+2.  Compilation time: Case1 => 0.479s, Case2 => 0.506s

@@ -1,0 +1,4 @@
+1.  Functions make it easier to run a same code block as many times as required.
+    Though it is usless in the compiling process, it plays a significant role in heigher language.
+
+2.  To get rid of it. Just insert the code block into the main function.
